@@ -1,0 +1,127 @@
+body{
+    background-image: url("/Images/PersonalDetails.jpg");
+    overflow: hidden;
+}
+
+.header-wrapper{
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    height: 40px;
+}
+
+.logo{
+    width:25%;
+    height: 40px;
+}
+
+.logo>img{
+    width: 45%;
+    height: 70px;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.navigation-bar-wrapper{
+    width: 70%;
+    position: absolute;
+    top: -10px;
+    display: flex;
+    left: 700px;
+    
+}
+
+.navigation-bar{
+    display: flex;
+    gap: 70px;
+    /* float: right; */
+    top: 20px;
+    position: absolute;
+    
+}
+.navigation-bar>li{
+    display: flex;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.personal-details{
+    /* width: 100vh; */
+    position: relative;
+    width: 657.86px;
+    height: 530px;
+    left: 90px;
+    margin-top: 90px;
+    background: #FFC9DE;
+    /* opacity: 0.7; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* width: 80vh; */
+}
+
+.form-title{
+    margin-left: 230px;
+}
+
+.personal-details>div{
+    margin-left: 50px; 
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.personal-details>div>input{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 556px;
+    height: 45px;
+    /* left: 186px; */
+    top: 317px;
+
+    background: #F0ECEC;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    /* flex-direction: column; */
+}
+
+.personal-details>div>input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.personal-details>div>button{
+    background: #FFFDFD;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    width: 200px;
+    height: 45px;
+}
+
+.personal-details>div:nth-child(8){
+    width: 200px;
+    display: flex;
+    margin-top: 15px;
+    left: 50px;
+}
+
+.personal-details>div:nth-child(9){
+    width: 200px;
+    display: flex;
+    top:-60px;
+    left: 280px;
+}
+

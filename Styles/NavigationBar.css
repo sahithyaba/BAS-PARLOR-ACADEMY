@@ -1,0 +1,49 @@
+.header-wrapper{
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+.logo{
+    width:30%;
+    height: 40px;
+}
+
+.logo>img{
+    width: 45%;
+    height: 70px;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.navigation-bar-wrapper{
+    width: 70%;
+    position: absolute;
+    top: -10px;
+    display: flex;
+    left: 700px;
+    
+}
+
+.navigation-bar{
+    display: flex;
+    gap: 70px;
+    /* float: right; */
+    top: 20px;
+    position: absolute;
+    
+}
+.navigation-bar>li{
+    display: flex;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+

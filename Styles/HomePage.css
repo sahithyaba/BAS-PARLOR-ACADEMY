@@ -1,0 +1,333 @@
+body{
+    background-image: url("../Images/HomePageBackgroundPicture.png");
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+.header-wrapper{
+    background-color: rgba(247, 240, 240, 0.514);
+    position: relative fixed;
+    display: flex;
+    /* margin-top: 1px; */
+    flex-direction: row;
+    height: 80px;
+    /* position: fixed; */
+    
+}
+
+.logo{
+    width:30%;
+    height: 40px;
+}
+
+.logo>img{
+    width: 45%;
+    height: 70px;
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.navigation-bar-wrapper{
+    width: 70%;
+    position: absolute;
+    top: -5px;
+    display: flex;
+    left: 700px;
+    
+}
+
+.navigation-bar{
+    display: flex;
+    gap: 70px;
+    /* float: right; */
+    top: 20px;
+    position: absolute;
+    
+}
+.navigation-bar>li{
+    display: flex;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.home-page{
+    /* height: 10vh; */
+    position: absolute;
+    width: 1520px;
+    height: 150px;
+    top: 320px;
+    background: rgba(245, 243, 243, 0.46);
+}
+
+.first-page{
+    height: 60vh;
+    left: 100px;
+}
+
+.heading-one>h1{
+    margin-left: 700px;
+}
+
+.heading-two>h1{
+    margin-left: 600px;
+}
+
+.second-page{
+    height: 100vh;
+    /* background-image: url("/Images/HomePageBackgroundPicture.png"); */
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: 0px;
+}
+
+.services-heading>h1{
+    margin-left: 680px;
+    padding-top: 50px;
+    /* margin-top: 100px; */
+}
+
+.cards{
+    margin-top: 60px;
+    margin-left: 170px;
+    display: flex;
+}
+
+.card-one{
+    background-color: rgb(253, 253, 253);
+    width: 400px;
+    height: 500px;
+}
+
+.card-one>img{
+    margin-left: 25px;
+    width: 350px;
+    height: 250px;
+}
+
+.expert-hair-cuts{
+    margin-top: -5px;
+    margin-left: 100px;
+}
+
+.expert-hair-cuts>h1{
+    font-size: 28px;
+}
+
+.expert-desc{
+    margin-left: 20px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 16;
+    font-weight: 700;
+    color: #000000dc;
+    /* text-indent: 10px; */
+}
+
+.s-one-btn{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.s-one-btn>button{
+    background: #FFFDFD;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    width: 200px;
+    height: 45px;
+}
+
+.s-btn-book{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.third-page{
+    height: 110vh;
+    background-image: url("../Images/Book\ Online\ Page.png");
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    margin-left: -10px;
+}
+
+.third-page>.heading{
+    /* position: absolute; */
+    width: 1550px;
+    height: 70px;
+    left: 0px;
+    margin-top: -10px;
+    background: rgba(255, 215, 228, 0.8);
+    opacity: 0.9;
+}
+
+.third-page>.heading>h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.event-img>img{
+    position:relative;
+    margin-top: 40px;
+    margin-left: 130px;
+    width: 450px;
+}
+
+.event-heading>h1{
+    margin-left: 170px;
+}
+
+.book-now>button{
+    background: #FFFDFD;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    width: 200px;
+    height: 45px;
+}
+
+.book-now{
+    margin-left: 260px;
+}
+
+.booking-card{
+    margin-left: 110px;
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.fourth-page{
+    height: 110vh;
+    background-image: url("../Images/About\ Us.png");
+    position: relative;
+    background-color: rgb(70, 42, 42);
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: 0px;
+}
+
+.team-heading{
+    /* text-align: center; */
+    color:  #FFFDFD;
+    position: absolute;
+}
+
+.team-heading>h1{
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.team-content{
+    position: absolute;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: justify;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 300px;
+    width: 700px;
+    margin-left: 400px;
+}
+
+.meet-our-staff{
+    margin-left: 640px;
+    position: absolute;
+    margin-top: 600px;
+}
+
+.meet-our-staff>button{
+    background: rgba(255, 253, 253, 0.6);
+    border: 3px solid #000000;
+    border-radius: 100px;
+    width: 270px;
+    height: 66px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.fifth-page{
+    height: 100vh;
+    margin-left: -10px;
+    background-color: rgba(255, 221, 221, 0.9);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-1{
+    position: absolute;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+.heading-2{
+    position: absolute;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.contact{
+    position: absolute;
+    margin-top: 270px;
+    /* align-items: center; */
+}
+
+.contact>div>input{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 556px;
+    height: 45px;
+    top: 317px;
+    background: #F0ECEC;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 500px;
+}
+
+.contact>div>input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contact>div>button{
+    background: #FFFDFD;
+    border: 3px solid #000000;
+    border-radius: 100px;
+    width: 200px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 680px;
+    font-size: 20px;
+    font-weight: 300;
+}
