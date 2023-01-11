@@ -146,6 +146,11 @@ ul>li>a{
     height: 45px;
 }
 
+.s-one-btn>button>a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .s-btn-book{
     font-size: 16px;
     font-weight: 500;
@@ -200,6 +205,10 @@ ul>li>a{
     margin-left: 260px;
 }
 
+.book-now>button>a{
+    text-decoration: none;
+    color: #000000;
+}
 .booking-card{
     margin-left: 110px;
     display: flex;
@@ -257,6 +266,15 @@ ul>li>a{
     height: 66px;
     font-weight: 600;
     font-size: 24px;
+}
+
+.meet-our-staff>button>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.submit-btn>button{
+    cursor: pointer;
 }
 
 .fifth-page{
